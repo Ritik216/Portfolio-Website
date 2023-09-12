@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.sidebar {
+  position: absolute;
+  transition: transform 0.3s ease-in; 
+  background: linear-gradient(to bottom, #00ffff 0%, #ff33cc 100%);
+
+  /* background-color: red; */
+  /* position: absolute; */
+  /* left: 50%; */
+  /* width: 300px; */
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+  height: 100vh;
+  animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+  from {
+    background: linear-gradient(to bottom, #00ffff 0%, #ff33cc 100%);
+  }
+  to {
+    background: linear-gradient(to bottom, #ff6666 0%, #ff99cc 100%);
+  }
+}
+.sidebar nav {
+  padding: 30px;
+}
+.sidebar nav li a {
+  /* list-style: none; */
+  text-decoration: none;
+  color: black;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 25px;
+  padding: 33px 0;
+}
+
+.main {
+  /* background-color: blueviolet; */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  
+}
+/* .main img{
+  background-size: cover;
+} */
+.container {
+   display: flex;
+  /* background: url(contactjpg.jpg) no-repeat center center fixed;
+  background-size: cover; */ 
+}
+
+.contactForm {
+  font-family: "Fira Sans", sans-serif;
+  margin: 0px 34px;
+  margin-top: 80px;
+  /* align-items: center;
+  justify-content: center; */
+  font-size: 16px;
+}
+.contactForm h1 {
+  font-size: 2em;
+  text-align: center;
+  font-family: "Source Code Pro", monospace;
+}
+
+
+
+.myForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  /* width: 30%; */
+  padding: 10px;
+  align-items: center;
+  /* margin-left: 60px; */
+}
+
+.myInput {
+  width: 400px;
+  margin: 12px;
+  padding: 9px;
+  border: 2px solid black;
+  /* color: black; */
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+.btn {
+  margin-top: 14px;
+  padding: 10px;
+  width: 80px;
+  background: linear-gradient(to bottom, #ccffff 0%, #9966ff 100%);
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+.contactme{
+  display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    width: 100vw;
+    /* height: 20vh; */
+    /* background: lightblue; */
+    justify-content: center;
+    align-items: center;
+    margin-left: -30px;
+}
+
+.contactme a i{
+  padding: 30px;
+  font-size: 2em;
+}
+
+.sidebarGo{
+  transform: translate(-443px,0px);
+  position: absolute
+}
+
+.hamburger{
+  position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+  margin-left: 155px;
+}
+
+@media (max-width: 1165px){
+  .contactForm{
+    font-size: 12px;
+    margin-top: 60px;
+    margin-left: 100px;
+  }
+  .contactme{
+    margin-top: 15px;
+  }
+}

@@ -1,0 +1,25 @@
+extends base.pug
+
+block scripts 
+        script(src="https://kit.fontawesome.com/2835f7aa2f.js" crossorigin="anonymous")
+block styles  
+    style 
+        include ../static/servicesstyle.css
+
+block content   
+    div.main
+        div.hamburger
+            i.ham.fa-solid.fa-bars
+            i.cross.fa-solid.fa-xmark
+        div.work
+            h2 Work Experience 
+            h3 Embedded Software Engineer Intern 
+            h4 Wabtec Corporation 
+            h5 01/2023 - 06/2023
+            p 
+                i Task
+            p - During my initial two months of internship, I dedicated my efforts to acquiring knowledge about different technologies such as C and C++. I also familiarized myself with using tools like Visual Studio for debugging, running code, and effectively resolving errors.
+            p - In the project, my primary task was to analyze and optimize the existing code.
+            p - Coded software updates to incorporate new features, address security vulnerabilities, and fix any defects identified.
+
+    script(src="../static/script.js")

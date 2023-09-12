@@ -1,0 +1,21 @@
+//- layout.pug
+doctype html
+
+html
+  head
+    title #{title}
+    block scripts
+    block styles 
+
+  body
+    div.container
+        div.sidebar.sidebarGo
+            nav
+                ul
+                    li #[a(href='/') Home ]
+                    li #[a(href='/intro') My Intro]
+                    li #[a(href='/services') Services]
+                    li #[a(href='/projects') My Projects]
+                    li #[a(href='/contact') Contact]
+
+        block content

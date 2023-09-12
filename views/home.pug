@@ -1,0 +1,31 @@
+extends base.pug
+
+block scripts 
+        //- script(src='../static/script.js')
+        script(src="https://kit.fontawesome.com/2835f7aa2f.js" crossorigin="anonymous")
+block styles 
+    style 
+        include ../static/style.css
+
+block content
+    div.main
+        div.hamburger
+            i.ham.fa-solid.fa-bars
+            i.cross.fa-solid.fa-xmark
+        div.infoContainer
+            div.devInfo
+                div.hello Hii I am 
+                div.name Ritik Bansal 
+                div.about Developer, Programmer 
+                div.moreAbout I am a Developer and I love to drink coffee at office time.
+                div.buttons
+                    a(href="../static/resume.pdf" target="_blank")
+                        button#resume Download Resume
+                    a(href="/contact")
+                        button Contact Me
+                
+            div.devPic
+                img(src="../static/dev.png", alt="Ritik Image")
+    script(src='../static/script.js')
+        
+

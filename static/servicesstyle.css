@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  background: linear-gradient(to bottom, #00ccff 0%, #ff99cc 100%);
+  
+  /* background-color: red; */
+  /* position: absolute; */
+  /* left: 50%; */
+  /* width: 300px; */
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+  height: 100vh;
+  position: absolute;
+  transition: transform 0.3s ease-in;
+}
+.sidebar nav {
+  padding: 30px;
+}
+.sidebar nav li a{
+    /* list-style: none; */
+    text-decoration: none;
+    color: black;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 25px;
+  padding: 33px 0;
+}
+
+.main {
+    /* background-color: blueviolet; */
+    width: 100vw;
+    height: 100vh;
+}
+  
+.container {
+    display: flex;
+}
+
+.work{
+    /* justify-content: center; */
+    /* margin-left: 100px; */
+    margin: 40px auto;
+    width: 30%;
+    height: 40%;
+    /* background-color: yellow; */
+    text-align: justify;
+    font-size: 16px;
+}
+.work h2{
+    font-family: "Fira Sans", sans-serif;
+    margin: 7px 0;
+    font-size: 1.7em;
+}
+.work h3{
+    font-family: "Fira Sans", sans-serif;
+    margin: 7px 0;
+    font-size: 1.5em;
+}
+.work h4{
+    font-family: "Fira Sans", sans-serif;
+    margin: 7px 0;
+    font-size: 1.3em;
+}
+.work h5{
+    font-family: "Fira Sans", sans-serif;
+    margin: 7px 0;
+    font-size: 1.2em;
+}
+.work p{
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute
+  }
+  
+  .hamburger{
+    position: absolute;
+      cursor: pointer;
+      top: 10px;
+      left: 10px;
+  }
+  .cross{
+    margin-left: 155px;
+  }
+  

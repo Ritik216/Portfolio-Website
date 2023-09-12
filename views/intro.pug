@@ -1,0 +1,59 @@
+extends base.pug
+
+block scripts 
+        script(src="https://kit.fontawesome.com/2835f7aa2f.js" crossorigin="anonymous")
+block styles  
+    style 
+        include ../static/introstyle.css
+
+block content 
+     div.main
+          div.hamburger
+            i.ham.fa-solid.fa-bars
+            i.cross.fa-solid.fa-xmark
+          div.intro
+            h2 About Me
+            p.typed I am Ritik Bansal, hailing from Panipat, Haryana. Recently, I successfully completed my Bachelor's degree in Computer Science and Engineering at Chandigarh University. During my academic journey, I also had the privilege of undertaking a six-month internship as an Embedded Software Engineer Intern at Wabtec Corporation. My academic achievements include a remarkable 9.2 CGPA in 10th standard and a commendable 85.40% in 12th class. In my bachelor's degree, I maintained an aggregate score of 8.09 CGPA. My technical skills encompass a wide range, including proficiency in programming languages such as C, C++, Java, and JavaScript. Additionally, I have a solid understanding of web development concepts. To further hone my skills, I have actively worked on various projects, such as creating a portfolio website, developing an interview portal, and designing a cricket game application. Outside of my academic pursuits, I come from a close-knit nuclear family. My hobbies include playing cricket and chess, which provide a perfect balance to my academic endeavors.
+            div.sachieve
+               div.skills
+                    h2 My Skills
+                    div.skillContainer
+                         div.skillItem C++:
+                              div.skill.t90
+                         div.skillItem C:
+                              div.skill.t90
+                         div.skillItem Java: 
+                              div.skill.t50
+                         div.skillItem SQL:
+                              div.skill.t70
+                         div.skillItem MySQL:
+                              div.skill.t70
+                         div.skillItem JavaScript:
+                              div.skill.t80
+                         div.skillItem HTML:
+                              div.skill.t75
+                         div.skillItem CSS:
+                              div.skill.t80
+                         div.skillItem NodeJs:
+                              div.skill.t75
+                         div.skillItem MongoDb:
+                              div.skill.t60
+                         div.skillItem DSA:
+                              div.skill.t80
+                         div.skillItem Team Work:
+                              div.skill.t100
+                         div.skillItem Git:
+                              div.skill.t70
+               div.achieve
+                    h2 Achievements
+                    ul
+                         li 
+                              p Rated 5-star at HackerRank
+                         //- p username-ritikbansal921
+                         li
+                              p Rated 3-star at LeetCode
+                         li
+                              p Rated 2-star at CodeChef
+                         li
+                              p Campus Ambassador of Internshala
+     script(src='../static/script.js')

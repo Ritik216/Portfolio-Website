@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts
+    script(src="https://kit.fontawesome.com/2835f7aa2f.js" crossorigin="anonymous")
+block styles 
+    style 
+        include ../static/projectstyle.css
+        
+block content 
+    div.main
+        div.hamburger
+            i.ham.fa-solid.fa-bars
+            i.cross.fa-solid.fa-xmark
+        section#missionSection 
+            h2.animation-header Projects
+            div.card
+                h3 Portfolio Website
+                div.card-box
+                    div.card-content
+                        p - I have created a portfolio website.
+                        p - This website using a tech stack that includes Node.js with the Express framework, Twilio for certain functionalities, and Pug templates for rendering the views. The website's styling is done using CSS.
+                        a(href="/") - Project Link 
+            div.card
+                h3 Interview Portal 
+                div.card-box
+                    div.card-content
+                        p - I developed an interview portal that enabled interviewers to arrange interviews with candidates.
+                        p - I utilized HTML and CSS for the front-end, while PHP facilitated the connection with the database for my project.
+                        a(href="https://interview-portal-scheduling.000webhostapp.com/" target="_blank") - Project Link
+            div.card
+                h3 Music Player System
+                div.card-box
+                    div.card-content
+                        p - Build a website Bansal music. 
+                        p - This website allows users to enjoy music with the convenience of forward and backward song navigation. 
+                        a(href="https://ritik216.github.io/Bansal_Music/" target="_blank") - Project Link
+
+            div.card
+                h3 Cricket Game Application
+                div.card-box
+                    div.card-content
+                        p - Build a cricket game application using the C++ programming language. 
+                        p - Developed using C and C++ programming. Here the user can check cricket match score and also check which team will win the match.
+                        a(href="https://github.com/Ritik216/Cricket_Game" target="_blank") - Project Link
+    script(src='../static/script.js')
+
+        

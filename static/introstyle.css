@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  background: linear-gradient(to bottom, #00ccff 0%, #ff99cc 100%);
+
+  /* background-color: red; */
+  /* position: absolute; */
+  /* left: 50%; */
+  /* width: 300px; */
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+  height: 100vh;
+  position: absolute;
+  transition: transform 0.3s ease-in;
+}
+.sidebar nav {
+  padding: 30px;
+}
+.sidebar nav li a{
+    /* list-style: none; */
+    text-decoration: none;
+    color: black;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 25px;
+  padding: 33px 0;
+}
+
+.main {
+  /* background-color: blueviolet; */
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+}
+
+.intro{
+  margin-left: 185px;
+  margin-top: 30px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.intro h2{
+    font-family: "Fira Sans", sans-serif;
+    margin: 12px;
+    /* text-align: center; */
+    font-size: 2em;
+}
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+    text-align: justify;
+    font-size: 1em;
+    
+}
+
+
+.skillContainer{
+    padding: 0 12px;
+    /* display: flex;
+    flex-direction: column; */
+    
+}
+.skill{
+    background-color: red;
+    width: 263px;
+    height: 8px;
+    border: 2px solid black;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+
+}
+.t50{
+    background-color: lightgoldenrodyellow;
+}
+
+.t60{
+    background-color: lightblue;
+}
+.t70{
+    background-color: aquamarine;
+}
+.t75{
+    background-color: blue;
+}
+.t80{
+    background-color: green;
+}
+.t90{
+    background-color: #ff99cc;
+
+}
+.t100{
+    background-color: violet;
+}
+
+
+
+
+
+.sachieve{
+  display: flex;
+}
+
+.achieve{
+  margin: 0 auto;
+}
+.achieve p{
+  text-align:left;
+}
+
+
+.sidebarGo{
+  transform: translate(-443px,0px);
+  position: absolute
+}
+
+.hamburger{
+  position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+  margin-left: 155px;
+}
